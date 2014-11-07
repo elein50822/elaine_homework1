@@ -1,0 +1,130 @@
+/*
+整體寬 960px
+Logo: http://i.imgur.com/pHyusTb.png
+登入小人: http://i.imgur.com/HxSb8GP.png
+選單 15px
+*/
+/*
+整體寬 960px
+Logo: http://i.imgur.com/pHyusTb.png
+登入小人: http://i.imgur.com/HxSb8GP.png
+選單 15px
+*/
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+header{
+	width:960px;
+	margin:0px auto;
+	height: 120px;
+}	
+header ul{
+	list-style-type:none;
+}
+header h1, header li{
+	float:left;
+}
+header span,{
+	float:right;
+	margin-top: 3em;
+	margin-left: 3em;
+}
+header div{
+	float: right;
+	margin-top: 3em;
+	color: 
+}
+header li{
+	margin-top: 3em;
+	margin-left: 3em;
+}
+
+
+/*content start*/
+.content{
+	width: 960px;
+	height: 600px;
+	margin:0 auto;
+	background: url(http://i.imgur.com/qHFBqbU.png) no-repeat center bottom;
+}	
+.content div{
+	margin: 80px 0px 0px 80px ;
+}
+.content h2{
+	font-size: 40px;
+	font-family: Microsoft JhengHei;
+	font-weight: bold;
+}
+.content img,.content div{
+	float: left;
+	position: relative;
+	left:180px;
+}
+.content li{
+	list-style-type: none;
+	font-family: Microsoft JhengHei;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 1m;
+}
+.content strong{
+	font-size: 24px;
+	font-weight: bold
+}
+.content button{
+	margin-left: 40px;
+	color: white;
+	padding: 10px 40px;
+	border: 0 ;
+	border-radius:100px;
+	background: -webkit-linear-gradient(top, #fe8511 0%,#dc5608 100%); /* Chrome10+,Safari5.1+ */
+	background: -webkit-linear-gradient(top, #fe8511 0%, #dc5608 100%);
+	background: linear-gradient(to bottom, #fe8511 0%,#dc5608 100%); /* W3C */
+}
+
+/*content2 start*/
+
+.content2{
+	width: 960px;
+	margin: 0 auto;
+}
+.content2 h3{
+	float: left;
+	font-size: 40px;
+	width: 1em;
+	border: 3px  #b5b5b5 double;
+	padding: 50px 5px;
+}
+figure{
+	font-size: 12px;
+	border: 1px solid #ccc;
+	padding: 10px 16px;
+	text-align: center;
+	margin: 0 25px;
+}
+.gift figcaption {
+	text-align: center;
+	font-size: 10px;
+}
+section p{
+	clear: both;
+	text-align: center;
+}
+.content2 h3,.content2 ul,.content2 .gift{
+	float: left;
+	left: 50px;
+	position: relative;
+}
+.content2 ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+li figure{
+  border-top-width:0;
+}
+
+li:first-child figure{
+  border-top-width: 1px;
+}
